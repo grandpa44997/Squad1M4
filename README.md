@@ -89,7 +89,7 @@ Para saber mais sobre como a Data Insights pode ajudar sua organização a tirar
 
 Junte-se a nós na jornada de transformar informações em estratégias bem-sucedidas!
 
-##Analistas deste projeto 
+## Analistas deste projeto 
 
 - Gustavo Daher (Co-facilitador)<a href="https://www.linkedin.com/in/gustavo-daher-/">
         <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
