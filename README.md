@@ -83,9 +83,10 @@ Bandeiras como Ipiranga e Petrobras têm maior presença nos estados com os pre�
 ## Contato
 Para saber mais sobre como a Data Insights pode ajudar sua organização a tirar o máximo proveito de seus dados e tomar decisões estratégicas informadas, entre em contato conosco:
 
-Website: www.datainsights.com.br
-Email: contato@datainsights.com.br
-Telefone: +55 (XX) XXXX-XXXX
+- Website: www.datainsights.com.br
+- Email: contato@datainsights.com.br
+- Telefone: +55 (XX) XXXX-XXXX
+
 Junte-se a nós na jornada de transformar informações em estratégias bem-sucedidas!
 
 ##Analistas deste projeto 
