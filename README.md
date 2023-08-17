@@ -105,3 +105,82 @@ Junte-se a nós na jornada de transformar informações em estratégias bem-suce
 
 - Cristhian Monteiro (Gestor de Pessoa)<a href="https://www.linkedin.com/in/cristhian-monteiro/">
         <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
+
+
+
+# Modo de Uso - Projeto de Análises Textuais a partir de Dados da ANP
+
+Este repositório contém um projeto de análises textuais focado em dados fornecidos pela Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP). O objetivo principal é analisar os dados contidos em arquivos CSV, os quais podem ser consumidos diretamente do repositório ou através do link do site da ANP. O projeto foi desenvolvido no ambiente colaborativo Google Colab e utiliza diversas bibliotecas Python para análises e visualizações.
+
+## Requisitos
+
+- Python (versão recomendada: 3.x)
+- Bibliotecas Python: pandas, matplotlib, seaborn (todas as bibliotecas utilizadas já estão contidas no ambiente Google Colab)
+
+## Como utilizar
+
+1. **Clonar o repositório:**
+
+   Primeiramente, clone este repositório em sua máquina local usando o seguinte comando:
+
+   ```
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+
+   Substitua `seu-usuario` pelo seu nome de usuário do GitHub e `seu-repositorio` pelo nome do repositório.
+
+2. **Acessar a pasta do projeto:**
+
+   Navegue para a pasta do projeto:
+
+   ```
+   cd seu-repositorio
+   ```
+
+3. **Executar no Google Colab:**
+
+   O ambiente de desenvolvimento recomendado para este projeto é o Google Colab. Os arquivos Jupyter Notebook (.ipynb) estão formatados para serem executados no Google Colab.
+
+   - Abra o [Google Colab](https://colab.research.google.com/).
+   - Crie um novo notebook ou faça o upload do notebook do projeto (arquivo `.ipynb`).
+   - No notebook, execute as células sequencialmente para carregar os dados e realizar as análises.
+
+4. **Consumir os arquivos CSV:**
+
+   Os dados podem ser consumidos de duas maneiras:
+
+   - **Localmente:**
+
+     Utilize a função `pd.read_csv()` da biblioteca pandas para carregar os arquivos CSV que estão na pasta do projeto:
+
+     ```python
+     import pandas as pd
+
+     df1 = pd.read_csv('arquivo1.csv')
+     df2 = pd.read_csv('arquivo2.csv')
+     ```
+
+   - **A partir do link da ANP:**
+
+     Você também pode consumir os dados diretamente do link do site da ANP. Acesse o link em questão e utilize a função `pd.read_csv()` para carregar os dados:
+
+     ```python
+     link_anp = 'https://link-do-site-da-anp/dados.csv'
+     df_anp = pd.read_csv(link_anp)
+     ```
+
+5. **Realizar análises e visualizações:**
+
+   O foco do projeto é a realização de análises textuais. Utilize o ambiente Google Colab e as bibliotecas disponíveis para criar análises e visualizações em markdown e código Python.
+
+6. **Salvar e compartilhar resultados:**
+
+   Após realizar as análises e visualizações desejadas, você pode salvar o notebook atualizado e compartilhar os resultados com sua equipe ou público-alvo.
+
+## Avisos importantes
+
+- Certifique-se de que todas as bibliotecas utilizadas no projeto estejam instaladas no ambiente em que você está executando o código.
+- Sempre mantenha as informações sensíveis, como senhas e chaves de API, protegidas e não as inclua no repositório.
+- Lembre-se de que o acesso aos dados da ANP pode estar sujeito a termos e condições específicas.
+
+Este modo de uso fornece um guia básico para utilizar o projeto de análises textuais a partir de dados da ANP. Sinta-se à vontade para personalizar e adaptar conforme suas necessidades.
